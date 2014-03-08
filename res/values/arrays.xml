@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array
+    name="startup_tabs" translatable="false">
+    <item>Friends</item>
+    <item>Places</item>
+  </string-array>
+  
+  <!-- Don't change these for localization. -->
+  <string-array
+    name="startup_tabs_values" translatable="false">
+    <item>Friends</item>
+    <item>Places</item>
+  </string-array>
+</resources>

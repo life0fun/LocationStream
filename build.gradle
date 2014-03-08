@@ -1,0 +1,39 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.4'
+    }
+}
+apply plugin: 'android'
+
+dependencies {
+    compile files('libs/signpost-core-1.2.1.1.jar')
+    compile files('libs/signpost-commonshttp4-1.2.1.1.jar')
+    compile files('../../../../LocationStream/libs/fbsdk.jar')
+    compile files('libs/twitter4j-core-2.1.9.jar')
+}
+
+android {
+    compileSdkVersion 14
+    buildToolsVersion "14"
+
+    defaultConfig {
+        minSdkVersion 1
+        targetSdkVersion 1
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src','aidl']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+
+        instrumentTest.setRoot('tests')
+    }
+}

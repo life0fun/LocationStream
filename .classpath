@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="aidl"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="/Users/e51141/wip/LocationStream/libs/signpost-core-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/e51141/wip/LocationStream/libs/signpost-commonshttp4-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/fbsdk.jar"/>
+	<classpathentry kind="lib" path="/Users/e51141/wip/LocationStream/libs/twitter4j-core-2.1.9.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
